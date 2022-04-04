@@ -31,7 +31,7 @@ function callback_function_name() {
     }
 
     $results = json_decode( wp_remote_retrieve_body( $response ) );
-    //var_dump($results);
+    
    
     $html = '';
     $html .= '<table>';
